@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .cover__image {
    background-size: contain;
    height: 200px;
