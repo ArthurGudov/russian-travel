@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 520px) {
   .place__item {
     flex-wrap: wrap;
     max-width: 320px;

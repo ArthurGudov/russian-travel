@@ -10,13 +10,13 @@
 
 @media (max-width: 1024px) {
   .footer {
-    max-width: 928px;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media (max-width: 768px) {
   .footer {
-    max-width: 720px;
+    max-width: calc(100% - 48px);
   }
 }
 
