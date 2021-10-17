@@ -1,0 +1,23 @@
+.header__lang-link {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
+  position: absolute;
+  top: 18px;
+  right: 47px;
+}
+
+.header__lang-link:last-of-type {
+  text-decoration: none;
+  right: 0;
+}
+
+@media (max-width: 320px) {
+  .header {
+   top: 14px;
+   font-size: 18px;
+   line-height: 20px;
+  }
+}

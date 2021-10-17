@@ -1,0 +1,4 @@
+.place__paragraphs {
+  flex-direction: column;
+  flex-wrap: wrap;
+}

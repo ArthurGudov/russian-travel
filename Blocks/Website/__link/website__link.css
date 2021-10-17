@@ -1,0 +1,9 @@
+.website__link {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: underline;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 0;
+}

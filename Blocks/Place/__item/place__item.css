@@ -1,0 +1,28 @@
+.place__item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  margin-top: 48px;
+ 
+}
+
+@media (max-width: 1024px) {
+  .place__item {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__item {
+    max-width: 720px;
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__item {
+    flex-wrap: wrap;
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,24 @@
+.place__header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .place__header {
+    max-width: calc(100% - 2*48px);
+  }
+ }
+
+@media (max-width: 768px) {
+  .place__header {
+    max-width: calc(100% - 2*24px);
+  }
+} 
+
+@media (max-width: 320px) {
+  .place__header {
+    max-width: calc(100% - 2*16px);
+    flex-direction: column;
+  }
+} 
