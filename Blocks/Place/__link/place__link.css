@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -8,6 +8,6 @@
   padding: 0;
 }
 
-.website__link:hover {
+.place__link:hover {
   opacity: .5;
 }
