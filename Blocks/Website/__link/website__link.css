@@ -7,3 +7,7 @@
   color: #FFFFFF;
   padding: 0;
 }
+
+.website__link:hover {
+  opacity: .5;
+}
