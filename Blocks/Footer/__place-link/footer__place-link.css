@@ -1,5 +1,5 @@
 .footer__place-link {
-  display: flex;  
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
