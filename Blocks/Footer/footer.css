@@ -1,7 +1,8 @@
 .footer {
   display: flex;
   flex-direction: row;
-  position: relative;
+  justify-content: space-between;
+  flex-wrap: ;
   margin: 0 auto;
   margin-top: 92px;
   color: #FFFFFF;

@@ -1,0 +1,12 @@
+.footer__place-link {
+  display: flex;  
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 425px) {
+    .footer__place-link {
+     margin: 0;
+     flex-direction: column;
+    }
+  }

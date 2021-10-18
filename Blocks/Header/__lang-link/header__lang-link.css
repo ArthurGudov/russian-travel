@@ -4,18 +4,20 @@
   font-weight: normal;
   font-style: normal;
   color: #FFFFFF;
-  position: absolute;
-  top: 18px;
-  right: 47px;
+  margin-right: 18px;
+}
+
+.header__lang-link:hover {
+  opacity: .5;
 }
 
 .header__lang-link:last-of-type {
   text-decoration: none;
-  right: 0;
+  margin-right: 0;
 }
 
 @media (max-width: 320px) {
-  .header {
+  .header__lang-link {
    top: 14px;
    font-size: 18px;
    line-height: 20px;
