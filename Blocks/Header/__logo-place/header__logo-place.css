@@ -1,4 +1,13 @@
 .header__logo-place {
   flex-basis: 1107px;
   max-height: 52px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 320px) {
+  .header__logo-place {
+    width: calc(100% - 2 * 16px);
+    max-height: 42px;
+  }
 }
