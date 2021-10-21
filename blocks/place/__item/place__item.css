@@ -4,7 +4,7 @@
   flex-wrap: nowrap;
   margin: 0 auto;
   margin-top: 48px;
- 
+
 }
 
 @media (max-width: 1024px) {
@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 620px) {
   .place__item {
     flex-wrap: wrap;
     max-width: 320px;
