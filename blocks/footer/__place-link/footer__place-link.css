@@ -4,7 +4,7 @@
   flex-wrap: nowrap;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 560px) {
     .footer__place-link {
      margin: 0;
      flex-direction: column;

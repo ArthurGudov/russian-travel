@@ -6,7 +6,7 @@
   max-width: calc(100% - 2 * 48px);
   margin: 0 auto;
   margin-top: 92px;
-} 
+}
 
 @media (max-width: 1024px) {
   .photo-grid {
@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .photo-grid {
     grid-template-columns: 1fr;
     grid-template-rows:repeat(12, 1fr);
