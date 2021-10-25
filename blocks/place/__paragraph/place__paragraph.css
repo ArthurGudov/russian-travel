@@ -29,3 +29,19 @@
     margin-top: 32px;
   }
 }
+
+.place__paragraph:nth-child(2) {
+  margin-top: 48px;
+}
+
+@media (max-width: 1024px) {
+  .place__paragraph:nth-child(2) {
+      margin-top: 27px;
+    }
+}
+
+@media (max-width: 768px) {
+  .place__paragraph:nth-child(2) {
+      margin-top: 25px;
+    }
+}
