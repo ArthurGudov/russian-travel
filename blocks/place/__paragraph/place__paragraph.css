@@ -6,19 +6,23 @@
   font-weight: normal;
   font-style: normal;
   margin: 0;
+  margin-bottom: 48px;
   padding: 0;
 }
 
 @media (max-width: 1024px) {
   .place__paragraph {
     max-width: 456px;
+    margin-bottom: 27px;
   }
 }
+
 
 @media (max-width: 768px) {
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
+    margin-bottom: 25px;
   }
 }
 
@@ -28,20 +32,4 @@
     margin-left: 16px;
     margin-top: 32px;
   }
-}
-
-.place__paragraph:nth-child(2) {
-  margin-top: 48px;
-}
-
-@media (max-width: 1024px) {
-  .place__paragraph:nth-child(2) {
-      margin-top: 27px;
-    }
-}
-
-@media (max-width: 768px) {
-  .place__paragraph:nth-child(2) {
-      margin-top: 25px;
-    }
 }

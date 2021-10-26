@@ -14,11 +14,17 @@
   .place__header {
     max-width: calc(100% - 2*24px);
   }
-} 
+}
+
+@media (max-width: 700px) {
+  .place__header {
+    flex-direction: column;
+  }
+}
 
 @media (max-width: 560px) {
   .place__header {
     max-width: calc(100% - 2*16px);
     flex-direction: column;
   }
-} 
+}
